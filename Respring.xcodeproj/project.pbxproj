@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E107BB0D26706D0E00651C7C /* DynamicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DC426704085001D7484 /* DynamicBackground.swift */; };
+		E12D1B0D26707C910062B64A /* QuartzCore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E12D1B0C26707C900062B64A /* QuartzCore.tbd */; };
+		E144BF2F2670BF4D00096987 /* Respring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144BF2E2670BF4D00096987 /* Respring.swift */; };
+		E144BF302670BF4E00096987 /* Respring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144BF2E2670BF4D00096987 /* Respring.swift */; };
+		E144BF312670BF4E00096987 /* Respring.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144BF2E2670BF4D00096987 /* Respring.swift */; };
+		E1B37DB1267039A3001D7484 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DB0267039A3001D7484 /* AppDelegate.swift */; };
+		E1B37DB5267039A3001D7484 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DB4267039A3001D7484 /* ViewController.swift */; };
+		E1B37DBA267039AF001D7484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B37DB9267039AF001D7484 /* Assets.xcassets */; };
+		E1B37DBD267039AF001D7484 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B37DBB267039AF001D7484 /* LaunchScreen.storyboard */; };
+		E1B37DC526704085001D7484 /* DynamicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DC426704085001D7484 /* DynamicBackground.swift */; };
+		E1B37DCC267044A3001D7484 /* Recaro WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E1B37DCB267044A3001D7484 /* Recaro WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1B37DD2267044A3001D7484 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1B37DD0267044A3001D7484 /* Interface.storyboard */; };
+		E1B37DD4267044B1001D7484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B37DD3267044B1001D7484 /* Assets.xcassets */; };
+		E1B37DDB267044B2001D7484 /* Recaro WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E1B37DDA267044B2001D7484 /* Recaro WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E1B37DE2267044B2001D7484 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DE1267044B2001D7484 /* ExtensionDelegate.swift */; };
+		E1B37DE6267044B7001D7484 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1B37DE5267044B7001D7484 /* Assets.xcassets */; };
+		E1B37DF5267047D7001D7484 /* RecaroInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DF4267047D7001D7484 /* RecaroInterfaceController.swift */; };
+		E1E2F6EB2670A7C400707163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E2F6EA2670A7C400707163 /* AppDelegate.swift */; };
+		E1E2F6ED2670A7C400707163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E2F6EC2670A7C400707163 /* ViewController.swift */; };
+		E1E2F6F22670A7D800707163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E2F6F12670A7D800707163 /* Assets.xcassets */; };
+		E1E2F6F52670A7D800707163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E2F6F32670A7D800707163 /* LaunchScreen.storyboard */; };
+		E1E2F6F92670A82A00707163 /* DynamicBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B37DC426704085001D7484 /* DynamicBackground.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1B37DCD267044A3001D7484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B37DA5267039A3001D7484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B37DCA267044A3001D7484;
+			remoteInfo = "Recaro WatchKit App";
+		};
+		E1B37DDC267044B2001D7484 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1B37DA5267039A3001D7484 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1B37DD9267044B2001D7484;
+			remoteInfo = "Recaro WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E1B37DEB267044B7001D7484 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E1B37DDB267044B2001D7484 /* Recaro WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B37DEF267044B7001D7484 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E1B37DCC267044A3001D7484 /* Recaro WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E107BB0C267063D800651C7C /* RecaroBridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecaroBridgingHeader.h; sourceTree = "<group>"; };
+		E12D1B0C26707C900062B64A /* QuartzCore.tbd */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.text-based-dylib-definition"; path = QuartzCore.tbd; sourceTree = "<group>"; };
+		E144BF2E2670BF4D00096987 /* Respring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Respring.swift; sourceTree = "<group>"; };
+		E1B37DAD267039A3001D7484 /* Respring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Respring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B37DB0267039A3001D7484 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1B37DB4267039A3001D7484 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1B37DB9267039AF001D7484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B37DBC267039AF001D7484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1B37DBE267039AF001D7484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B37DC426704085001D7484 /* DynamicBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicBackground.swift; sourceTree = "<group>"; };
+		E1B37DC8267044A0001D7484 /* Recaro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recaro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B37DCB267044A3001D7484 /* Recaro WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recaro WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B37DD1267044A3001D7484 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		E1B37DD3267044B1001D7484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B37DD5267044B1001D7484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B37DDA267044B2001D7484 /* Recaro WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Recaro WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1B37DE1267044B2001D7484 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		E1B37DE5267044B7001D7484 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1B37DE7267044B7001D7484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1B37DF4267047D7001D7484 /* RecaroInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecaroInterfaceController.swift; sourceTree = "<group>"; };
+		E1B37DF626704985001D7484 /* Respring.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Respring.entitlements; sourceTree = "<group>"; };
+		E1E2F6E82670A7C200707163 /* Repine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Repine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E2F6EA2670A7C400707163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1E2F6EC2670A7C400707163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1E2F6F12670A7D800707163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E2F6F42670A7D800707163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E2F6FA2670AA2B00707163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1B37DAA267039A3001D7484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B37DD7267044B2001D7484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12D1B0D26707C910062B64A /* QuartzCore.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E2F6E52670A7C200707163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E1B37DA4267039A3001D7484 = {
+			isa = PBXGroup;
+			children = (
+				E1B37DAF267039A3001D7484 /* Respring */,
+				E1B37DCF267044A3001D7484 /* Recaro WatchKit App */,
+				E1B37DDE267044B2001D7484 /* Recaro WatchKit Extension */,
+				E1E2F6E92670A7C400707163 /* Repine */,
+				E1B37DAE267039A3001D7484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E1B37DAE267039A3001D7484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1B37DAD267039A3001D7484 /* Respring.app */,
+				E1B37DC8267044A0001D7484 /* Recaro.app */,
+				E1B37DCB267044A3001D7484 /* Recaro WatchKit App.app */,
+				E1B37DDA267044B2001D7484 /* Recaro WatchKit Extension.appex */,
+				E1E2F6E82670A7C200707163 /* Repine.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1B37DAF267039A3001D7484 /* Respring */ = {
+			isa = PBXGroup;
+			children = (
+				E1B37DF626704985001D7484 /* Respring.entitlements */,
+				E1B37DB0267039A3001D7484 /* AppDelegate.swift */,
+				E1B37DC426704085001D7484 /* DynamicBackground.swift */,
+				E1B37DB4267039A3001D7484 /* ViewController.swift */,
+				E144BF2E2670BF4D00096987 /* Respring.swift */,
+				E1B37DB9267039AF001D7484 /* Assets.xcassets */,
+				E1B37DBB267039AF001D7484 /* LaunchScreen.storyboard */,
+				E1B37DBE267039AF001D7484 /* Info.plist */,
+			);
+			path = Respring;
+			sourceTree = "<group>";
+		};
+		E1B37DCF267044A3001D7484 /* Recaro WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				E1B37DD0267044A3001D7484 /* Interface.storyboard */,
+				E1B37DD3267044B1001D7484 /* Assets.xcassets */,
+				E1B37DD5267044B1001D7484 /* Info.plist */,
+			);
+			path = "Recaro WatchKit App";
+			sourceTree = "<group>";
+		};
+		E1B37DDE267044B2001D7484 /* Recaro WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E12D1B0C26707C900062B64A /* QuartzCore.tbd */,
+				E1B37DE1267044B2001D7484 /* ExtensionDelegate.swift */,
+				E1B37DE5267044B7001D7484 /* Assets.xcassets */,
+				E1B37DE7267044B7001D7484 /* Info.plist */,
+				E1B37DF4267047D7001D7484 /* RecaroInterfaceController.swift */,
+				E107BB0C267063D800651C7C /* RecaroBridgingHeader.h */,
+			);
+			path = "Recaro WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		E1E2F6E92670A7C400707163 /* Repine */ = {
+			isa = PBXGroup;
+			children = (
+				E1E2F6FA2670AA2B00707163 /* Info.plist */,
+				E1E2F6EA2670A7C400707163 /* AppDelegate.swift */,
+				E1E2F6EC2670A7C400707163 /* ViewController.swift */,
+				E1E2F6F12670A7D800707163 /* Assets.xcassets */,
+				E1E2F6F32670A7D800707163 /* LaunchScreen.storyboard */,
+			);
+			path = Repine;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1B37DAC267039A3001D7484 /* Respring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B37DC1267039AF001D7484 /* Build configuration list for PBXNativeTarget "Respring" */;
+			buildPhases = (
+				E1B37DA9267039A3001D7484 /* Sources */,
+				E1B37DAA267039A3001D7484 /* Frameworks */,
+				E1B37DAB267039A3001D7484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Respring;
+			productName = Respring;
+			productReference = E1B37DAD267039A3001D7484 /* Respring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1B37DC7267044A0001D7484 /* Recaro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B37DF0267044B7001D7484 /* Build configuration list for PBXNativeTarget "Recaro" */;
+			buildPhases = (
+				E1B37DC6267044A0001D7484 /* Resources */,
+				E1B37DEF267044B7001D7484 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B37DCE267044A3001D7484 /* PBXTargetDependency */,
+			);
+			name = Recaro;
+			productName = Recaro;
+			productReference = E1B37DC8267044A0001D7484 /* Recaro.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		E1B37DCA267044A3001D7484 /* Recaro WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B37DEC267044B7001D7484 /* Build configuration list for PBXNativeTarget "Recaro WatchKit App" */;
+			buildPhases = (
+				E1B37DC9267044A3001D7484 /* Resources */,
+				E1B37DEB267044B7001D7484 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1B37DDD267044B2001D7484 /* PBXTargetDependency */,
+			);
+			name = "Recaro WatchKit App";
+			productName = "Recaro WatchKit App";
+			productReference = E1B37DCB267044A3001D7484 /* Recaro WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		E1B37DD9267044B2001D7484 /* Recaro WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1B37DE8267044B7001D7484 /* Build configuration list for PBXNativeTarget "Recaro WatchKit Extension" */;
+			buildPhases = (
+				E1B37DD6267044B2001D7484 /* Sources */,
+				E1B37DD7267044B2001D7484 /* Frameworks */,
+				E1B37DD8267044B2001D7484 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recaro WatchKit Extension";
+			productName = "Recaro WatchKit Extension";
+			productReference = E1B37DDA267044B2001D7484 /* Recaro WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		E1E2F6E72670A7C200707163 /* Repine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E2F6F82670A7D800707163 /* Build configuration list for PBXNativeTarget "Repine" */;
+			buildPhases = (
+				E1E2F6E42670A7C200707163 /* Sources */,
+				E1E2F6E52670A7C200707163 /* Frameworks */,
+				E1E2F6E62670A7C200707163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Repine;
+			productName = Repine;
+			productReference = E1E2F6E82670A7C200707163 /* Repine.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1B37DA5267039A3001D7484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E1B37DAC267039A3001D7484 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E1B37DC7267044A0001D7484 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E1B37DCA267044A3001D7484 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E1B37DD9267044B2001D7484 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E1E2F6E72670A7C200707163 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = E1B37DA8267039A3001D7484 /* Build configuration list for PBXProject "Respring" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1B37DA4267039A3001D7484;
+			productRefGroup = E1B37DAE267039A3001D7484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1B37DAC267039A3001D7484 /* Respring */,
+				E1B37DC7267044A0001D7484 /* Recaro */,
+				E1B37DCA267044A3001D7484 /* Recaro WatchKit App */,
+				E1B37DD9267044B2001D7484 /* Recaro WatchKit Extension */,
+				E1E2F6E72670A7C200707163 /* Repine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1B37DAB267039A3001D7484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B37DBD267039AF001D7484 /* LaunchScreen.storyboard in Resources */,
+				E1B37DBA267039AF001D7484 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B37DC6267044A0001D7484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B37DC9267044A3001D7484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B37DD4267044B1001D7484 /* Assets.xcassets in Resources */,
+				E1B37DD2267044A3001D7484 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B37DD8267044B2001D7484 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B37DE6267044B7001D7484 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E2F6E62670A7C200707163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E2F6F52670A7D800707163 /* LaunchScreen.storyboard in Resources */,
+				E1E2F6F22670A7D800707163 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1B37DA9267039A3001D7484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1B37DC526704085001D7484 /* DynamicBackground.swift in Sources */,
+				E1B37DB5267039A3001D7484 /* ViewController.swift in Sources */,
+				E1B37DB1267039A3001D7484 /* AppDelegate.swift in Sources */,
+				E144BF2F2670BF4D00096987 /* Respring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1B37DD6267044B2001D7484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E107BB0D26706D0E00651C7C /* DynamicBackground.swift in Sources */,
+				E1B37DF5267047D7001D7484 /* RecaroInterfaceController.swift in Sources */,
+				E1B37DE2267044B2001D7484 /* ExtensionDelegate.swift in Sources */,
+				E144BF302670BF4E00096987 /* Respring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E2F6E42670A7C200707163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E2F6F92670A82A00707163 /* DynamicBackground.swift in Sources */,
+				E1E2F6ED2670A7C400707163 /* ViewController.swift in Sources */,
+				E1E2F6EB2670A7C400707163 /* AppDelegate.swift in Sources */,
+				E144BF312670BF4E00096987 /* Respring.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1B37DCE267044A3001D7484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B37DCA267044A3001D7484 /* Recaro WatchKit App */;
+			targetProxy = E1B37DCD267044A3001D7484 /* PBXContainerItemProxy */;
+		};
+		E1B37DDD267044B2001D7484 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1B37DD9267044B2001D7484 /* Recaro WatchKit Extension */;
+			targetProxy = E1B37DDC267044B2001D7484 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1B37DBB267039AF001D7484 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B37DBC267039AF001D7484 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E1B37DD0267044A3001D7484 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1B37DD1267044A3001D7484 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E2F6F32670A7D800707163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E2F6F42670A7D800707163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1B37DBF267039AF001D7484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1B37DC0267039AF001D7484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1B37DC2267039AF001D7484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Respring/Respring.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				INFOPLIST_FILE = Respring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Respring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1B37DC3267039AF001D7484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Respring/Respring.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				INFOPLIST_FILE = Respring/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=macosx*]" = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Respring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1B37DE9267044B7001D7484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				INFOPLIST_FILE = "Recaro WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recaro\\ WatchKit\\ Extension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Recaro.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Recaro WatchKit Extension/RecaroBridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E1B37DEA267044B7001D7484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				INFOPLIST_FILE = "Recaro WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Recaro\\ WatchKit\\ Extension",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Recaro.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Recaro WatchKit Extension/RecaroBridgingHeader.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		E1B37DED267044B7001D7484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				IBSC_MODULE = Recaro_WatchKit_Extension;
+				INFOPLIST_FILE = "Recaro WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Recaro.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		E1B37DEE267044B7001D7484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				IBSC_MODULE = Recaro_WatchKit_Extension;
+				INFOPLIST_FILE = "Recaro WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Recaro.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		E1B37DF1267044B7001D7484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Recaro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1B37DF2267044B7001D7484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Recaro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E1E2F6F62670A7D800707163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Repine/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Repine;
+				INFOPLIST_KEY_CFBundleName = Repine;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Repine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		E1E2F6F72670A7D800707163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7J8FJX4SRX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Repine/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Repine;
+				INFOPLIST_KEY_CFBundleName = Repine;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amywhile.Repine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1B37DA8267039A3001D7484 /* Build configuration list for PBXProject "Respring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B37DBF267039AF001D7484 /* Debug */,
+				E1B37DC0267039AF001D7484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B37DC1267039AF001D7484 /* Build configuration list for PBXNativeTarget "Respring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B37DC2267039AF001D7484 /* Debug */,
+				E1B37DC3267039AF001D7484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B37DE8267044B7001D7484 /* Build configuration list for PBXNativeTarget "Recaro WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B37DE9267044B7001D7484 /* Debug */,
+				E1B37DEA267044B7001D7484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B37DEC267044B7001D7484 /* Build configuration list for PBXNativeTarget "Recaro WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B37DED267044B7001D7484 /* Debug */,
+				E1B37DEE267044B7001D7484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1B37DF0267044B7001D7484 /* Build configuration list for PBXNativeTarget "Recaro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1B37DF1267044B7001D7484 /* Debug */,
+				E1B37DF2267044B7001D7484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E2F6F82670A7D800707163 /* Build configuration list for PBXNativeTarget "Repine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E2F6F62670A7D800707163 /* Debug */,
+				E1E2F6F72670A7D800707163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1B37DA5267039A3001D7484 /* Project object */;
+}

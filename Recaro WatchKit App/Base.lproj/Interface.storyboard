@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="18122" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ifg-87-k8g">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="18022"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Recaro_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="57"/>
+        </scene>
+        <!--Recaro Interface Controller-->
+        <scene sceneID="bPx-eu-fnT">
+            <objects>
+                <controller hidesWhenLoading="NO" id="Ifg-87-k8g" customClass="RecaroInterfaceController" customModule="Recaro_WatchKit_Extension"/>
+            </objects>
+            <point key="canvasLocation" x="288" y="67"/>
+        </scene>
+    </scenes>
+</document>
