@@ -1,5 +1,5 @@
 # Respring
-## Proof of concept code to crash Springboard/Pineboard/Carousel 
+## Proof of concept code to crash Springboard/Pineboard/Carousel/WindowServer
 
 Tested on iOS 15.0, 14.3, 13.3,
           watchOS 7.5, 8.0
